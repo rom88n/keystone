@@ -5,8 +5,7 @@ require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 import { getItems } from '@keystonejs/server-side-graphql-client';
 import { LocationGoogle } from './';
 
-// Field's configuration
-export const name = 'Location';
+export const name = 'LocationGoogle';
 export { LocationGoogle as type };
 export const supportsUnique = false;
 export const skipRequiredTest = false;

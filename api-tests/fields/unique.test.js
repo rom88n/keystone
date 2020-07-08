@@ -61,7 +61,9 @@ multiAdapterRunners().map(({ runner, adapterName, after }) =>
 
               expect(errors2).toHaveProperty('0.message');
               expect(errors2[0].message).toEqual(
-                expect.stringMatching(/duplicate key|to be unique/)
+                expect.stringMatching(
+                  /duplicate key|to be unique|Unique constraint failed on the fields/
+                )
               );
             })
           );
@@ -88,7 +90,9 @@ multiAdapterRunners().map(({ runner, adapterName, after }) =>
 
               expect(errors).toHaveProperty('0.message');
               expect(errors[0].message).toEqual(
-                expect.stringMatching(/duplicate key|to be unique/)
+                expect.stringMatching(
+                  /duplicate key|to be unique|Unique constraint failed on the fields/
+                )
               );
             })
           );
