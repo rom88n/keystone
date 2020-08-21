@@ -30,8 +30,16 @@
     "express": "^4.17.1",
     "express-pino-logger": "^4.0.0",
     "falsey": "^1.0.0",
+<<<<<<< HEAD
     "fs-extra": "^9.0.1",
     "globby": "^11.0.1",
+||||||| parent of a75102bbd... Add filter and CRUD test for `File` field type
+    "fs-extra": "^7.0.0",
+    "globby": "^11.0.0",
+=======
+    "fs-extra": "^7.0.0",
+    "globby": "^11.0.1",
+>>>>>>> a75102bbd... Add filter and CRUD test for `File` field type
     "graphql": "^14.6.0",
     "graphql-type-json": "^0.3.2",
     "lodash.flattendeep": "^4.4.0",
