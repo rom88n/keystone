@@ -30,8 +30,16 @@
     "express": "^4.17.1",
     "express-pino-logger": "^4.0.0",
     "falsey": "^1.0.0",
+<<<<<<< HEAD
     "fs-extra": "^9.0.1",
     "globby": "^11.0.1",
+||||||| parent of 0ef52841d... Add API tests for CloudinaryImage field type
+    "fs-extra": "^7.0.0",
+    "globby": "^11.0.0",
+=======
+    "fs-extra": "^7.0.0",
+    "globby": "^11.0.1",
+>>>>>>> 0ef52841d... Add API tests for CloudinaryImage field type
     "graphql": "^14.6.0",
     "graphql-type-json": "^0.3.2",
     "lodash.flattendeep": "^4.4.0",
